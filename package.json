@@ -1,0 +1,48 @@
+{
+  "name": "addictive_muffin_website",
+  "version": "1.0.0",
+  "description": "website project",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "server": "node server.js"
+  },
+  "author": "Marcin Morawski",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "autoprefixer": "^10.0.1",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "install": "^0.13.0",
+    "npm": "^7.0.7",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.2.0",
+    "postcss-loader": "^4.0.4",
+    "postcss-preset-env": "^6.7.0",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.28.0",
+    "sass-loader": "^10.0.5",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "mime-types": "^2.1.27",
+    "node-sass": "^5.0.0",
+    "popper.js": "^1.16.1"
+  }
+}
