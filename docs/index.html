@@ -8,7 +8,7 @@
     <meta name="author" content="Marcin Morawski">
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/reset.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/album.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet"> 
@@ -37,11 +37,7 @@
         <div class="collapse bg-dark" id="navbarHeader">
           <div class="container">
             <div class="row">
-              <div class="col-sm-8 col-md-7 py-4">
-                <h4 class="text-white">About</h4>
-                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-              </div>
-              <div class="col-sm-4 offset-md-1 py-4">
+              <div class="mx-auto py-4">
                 <h4 class="text-white">Kontakt</h4>
                 <ul class="list-unstyled">
                   <li><a href="https://www.instagram.com/addictive_muffin/" class="text-white">Instagram</a></li>
@@ -66,43 +62,72 @@
         <section class="jumbotron text-center">
           <div class="container">
             <h1>Addictive Muffin</h1>
-            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-            <p>
-              <a href="#" class="btn btn-primary my-2">Main call to action</a>
-              <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-            </p>
+            <p class="lead text-muted"><strong>Agnieszka</strong> | samouk uzależniony od pieczenia<br/> 
+              Torty, słodkie flower boxy i inne słodkie cuda na zamówienie.</p>
           </div>
         </section>
 
         <h2>CAKEFOLIO</h2>
         <div id="myBtnContainer">
-          <button class="btn active" onclick="filterSelection('all')"> Wszystkie</button>
-          <button class="btn" onclick="filterSelection('nature')"> Nature</button>
-          <button class="btn" onclick="filterSelection('boxes')"> Boxy</button>
-          <button class="btn" onclick="filterSelection('people')"> People</button>
+          <button class="btn btn-outline-primary active" onclick="filterSelection('all')"> Wszystkie</button>
+          <button class="btn btn-outline-primary" onclick="filterSelection('torts')"> Torty</button>
+          <button class="btn btn-outline-primary" onclick="filterSelection('boxes')"> Boxy</button>
+          <button class="btn btn-outline-primary" onclick="filterSelection('cakes')"> Ciasta</button>
+          <button class="btn btn-outline-primary" onclick="filterSelection('birth')"> Urodzinowe</button>
+          <button class="btn btn-outline-primary" onclick="filterSelection('mono')"> Monoporcje</button>
+          <button class="btn btn-outline-primary" onclick="filterSelection('diff')"> Różności</button>
         </div>
         
         <!-- Portfolio Gallery Grid -->
         <div class="row">
-          <div class="column nature">
+          <div class="column torts">
             <div class="content">
-              <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
-              <h4>Mountains</h4>
-              <p>Lorem ipsum dolor..</p>
+              <img src="./img/tort_1.jpg" alt="Tort_1" style="width:100%">
             </div>
           </div>
-          <div class="column nature">
+          <div class="column torts">
             <div class="content">
-              <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-              <h4>Lights</h4>
-              <p>Lorem ipsum dolor..</p>
+              <img src="./img/tort_2.jpg" alt="Tort_2" style="width:100%">
             </div>
           </div>
-          <div class="column nature">
+          <div class="column torts">
             <div class="content">
-              <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-              <h4>Forest</h4>
-              <p>Lorem ipsum dolor..</p>
+              <img src="./img/tort_3.jpg" alt="Tort_3" style="width:100%">
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_4.jpg" alt="Tort_4" style="width:100%">
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_5.jpg" alt="Tort_5" style="width:100%">
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_6.jpg" alt="Tort_6" style="width:100%">
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_7.jpg" alt="Tort_7" style="width:100%">
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_8.jpg" alt="Tort_8" style="width:100%">
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_9.jpg" alt="Tort_9" style="width:100%">
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_10.jpg" alt="Tort_10" style="width:100%">
             </div>
           </div>
         
@@ -152,25 +177,177 @@
             </div>
           </div>
 
-          <div class="column people">
+          <div class="column cakes">
             <div class="content">
-              <img src="/w3images/people1.jpg" alt="People" style="width:100%">
-              <h4>Girl</h4>
-              <p>Lorem ipsum dolor..</p>
+              <img src="./img/ciasto_1.jpg" alt="Cake_1" style="width:100%">
             </div>
           </div>
-          <div class="column people">
+          <div class="column cakes">
             <div class="content">
-              <img src="/w3images/people2.jpg" alt="People" style="width:100%">
-              <h4>Man</h4>
-              <p>Lorem ipsum dolor..</p>
+              <img src="./img/ciasto_2.jpg" alt="Cake_2" style="width:100%">
             </div>
           </div>
-          <div class="column people">
+          <div class="column cakes">
             <div class="content">
-              <img src="/w3images/people3.jpg" alt="People" style="width:100%">
-              <h4>Woman</h4>
-              <p>Lorem ipsum dolor..</p>
+              <img src="./img/ciasto_3.jpg" alt="Cake_3" style="width:100%">
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_4.jpg" alt="Cake_4" style="width:100%">
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_5.jpg" alt="Cake_5" style="width:100%">
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_6.jpg" alt="Cake_6" style="width:100%">
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_7.jpg" alt="Cake_7" style="width:100%">
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_8.jpg" alt="Cake_8" style="width:100%">
+            </div>
+          </div>
+
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_1.jpg" alt="birthday_1" style="width:100%">
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_2.jpg" alt="birthday_2" style="width:100%">
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_3.jpg" alt="birthday_3" style="width:100%">
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_4.jpg" alt="birthday_4" style="width:100%">
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_5.jpg" alt="birthday_5" style="width:100%">
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_6.jpg" alt="birthday_6" style="width:100%">
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_7.jpg" alt="birthday_7" style="width:100%">
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_8.jpg" alt="birthday_8" style="width:100%">
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_9.jpg" alt="birthday_9" style="width:100%">
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_10.jpg" alt="birthday_10" style="width:100%">
+            </div>
+          </div>
+
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_1.jpg" alt="mono_1" style="width:100%">
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_2.jpg" alt="mono_2" style="width:100%">
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_3.jpg" alt="mono_3" style="width:100%">
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_4.jpg" alt="mono_4" style="width:100%">
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_5.jpg" alt="mono_5" style="width:100%">
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_6.jpg" alt="mono_6" style="width:100%">
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_7.jpg" alt="mono_7" style="width:100%">
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_8.jpg" alt="mono_8" style="width:100%">
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_9.jpg" alt="mono_9" style="width:100%">
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_10.jpg" alt="mono_10" style="width:100%">
+            </div>
+          </div>
+
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_1.jpg" alt="various_1" style="width:100%">
+            </div>
+          </div>
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_2.jpg" alt="various_2" style="width:100%">
+            </div>
+          </div>
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_3.jpg" alt="various_3" style="width:100%">
+            </div>
+          </div>
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_4.jpg" alt="various_4" style="width:100%">
+            </div>
+          </div>
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_5.jpg" alt="various_5" style="width:100%">
+            </div>
+          </div>
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_6.jpg" alt="various_6" style="width:100%">
             </div>
           </div>
         <!-- END GRID -->
