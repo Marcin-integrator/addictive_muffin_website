@@ -1,6 +1,7 @@
 /*jslint es6 */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: ['./docs/js/index.js'],
@@ -11,13 +12,17 @@ module.exports = {
     },
     devServer: {
         contentBase: '.dist',
-        mimeTypes: { 'text/html': ['phtml'] }
+        historyApiFallback: true,
     },
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            template: './docs/index.html'
-        })
+            template: './docs/index.html',
+            favicon: './docs/img/favicon.ico'
+        }),
+        new MiniCssExtractPlugin({
+            filename: 'css/[name].css'
+        }),
     ],
     module: {
         rules: [
@@ -30,7 +35,7 @@ module.exports = {
             },
             {
                 test: /\.css$/i,
-                use: ['style-loader', 'css-loader',
+                use: [MiniCssExtractPlugin.loader, 'css-loader',
                 {
                     loader: 'postcss-loader',
                     options: {
@@ -51,6 +56,36 @@ module.exports = {
                   'sass-loader',
                 ],
             },
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: './img'
+                    },
+                  },
+                ],
+            },
+            /*{
+                test: /\.(png|jpg|gif)$/i,
+                use: [
+                  {
+                    loader: 'url-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: './img'
+                    },
+                  },
+                ],
+            },*/
+            /*{
+                test:/\.html$/,
+                use: [
+                  'html-loader'
+                ]
+              },*/
         ]
     }
 };
