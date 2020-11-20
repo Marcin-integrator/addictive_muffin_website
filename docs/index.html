@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
-    <meta name="description" content="Agnieszka | samouk uzależniony od pieczenia">
-    <meta name="keywords" content="ciasta, desery, torty"> 
-    <meta name="author" content="Marcin Morawski">
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="css/reset.css">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/album.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Agnieszka | samouk uzależniony od pieczenia"
+    />
+    <meta name="keywords" content="ciasta, desery, torty" />
+    <meta name="author" content="Marcin Morawski" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/album.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
     <title>Strona Główna</title>
     <style>
       .bd-placeholder-img {
@@ -29,344 +38,411 @@
         }
       }
     </style>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="collapse bg-dark" id="navbarHeader">
-          <div class="container">
-            <div class="row">
-              <div class="mx-auto py-4">
-                <h4 class="text-white">Kontakt</h4>
-                <ul class="list-unstyled">
-                  <li><a href="https://www.instagram.com/addictive_muffin/" class="text-white">Instagram</a></li>
-                  <li><a href="https://www.facebook.com/addictivemuffin" class="text-white">Facebook</a></li>
-                  <li><a href="#" class="text-white">Email</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
-          <div class="container d-flex justify-content-center">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </div>
-      </header>
-      
-      <main class="main" role="main">
-      
-        <section class="jumbotron text-center">
-          <div class="container">
-            <h1>Addictive Muffin</h1>
-            <p class="lead text-muted"><strong>Agnieszka</strong> | samouk uzależniony od pieczenia<br/> 
-              Torty, słodkie flower boxy i inne słodkie cuda na zamówienie.</p>
-          </div>
-        </section>
-
-        <h2>CAKEFOLIO</h2>
-        <div id="myBtnContainer">
-          <button class="btn btn-outline-primary active" onclick="filterSelection('all')"> Wszystkie</button>
-          <button class="btn btn-outline-primary" onclick="filterSelection('torts')"> Torty</button>
-          <button class="btn btn-outline-primary" onclick="filterSelection('boxes')"> Boxy</button>
-          <button class="btn btn-outline-primary" onclick="filterSelection('cakes')"> Ciasta</button>
-          <button class="btn btn-outline-primary" onclick="filterSelection('birth')"> Urodzinowe</button>
-          <button class="btn btn-outline-primary" onclick="filterSelection('mono')"> Monoporcje</button>
-          <button class="btn btn-outline-primary" onclick="filterSelection('diff')"> Różności</button>
-        </div>
-        
-        <!-- Portfolio Gallery Grid -->
-        <div class="row">
-          <div class="column torts">
-            <div class="content">
-              <img src="./img/tort_1.jpg" alt="Tort_1" style="width:100%">
-            </div>
-          </div>
-          <div class="column torts">
-            <div class="content">
-              <img src="./img/tort_2.jpg" alt="Tort_2" style="width:100%">
-            </div>
-          </div>
-          <div class="column torts">
-            <div class="content">
-              <img src="./img/tort_3.jpg" alt="Tort_3" style="width:100%">
-            </div>
-          </div>
-          <div class="column torts">
-            <div class="content">
-              <img src="./img/tort_4.jpg" alt="Tort_4" style="width:100%">
-            </div>
-          </div>
-          <div class="column torts">
-            <div class="content">
-              <img src="./img/tort_5.jpg" alt="Tort_5" style="width:100%">
-            </div>
-          </div>
-          <div class="column torts">
-            <div class="content">
-              <img src="./img/tort_6.jpg" alt="Tort_6" style="width:100%">
-            </div>
-          </div>
-          <div class="column torts">
-            <div class="content">
-              <img src="./img/tort_7.jpg" alt="Tort_7" style="width:100%">
-            </div>
-          </div>
-          <div class="column torts">
-            <div class="content">
-              <img src="./img/tort_8.jpg" alt="Tort_8" style="width:100%">
-            </div>
-          </div>
-          <div class="column torts">
-            <div class="content">
-              <img src="./img/tort_9.jpg" alt="Tort_9" style="width:100%">
-            </div>
-          </div>
-          <div class="column torts">
-            <div class="content">
-              <img src="./img/tort_10.jpg" alt="Tort_10" style="width:100%">
-            </div>
-          </div>
-        
-          <div class="column boxes">
-            <div class="content">
-              <img src="./img/box_1.jpg" alt="Box_1" style="width:100%">
-            </div>
-          </div>
-          <div class="column boxes">
-            <div class="content">
-              <img src="./img/box_2.jpg" alt="Box_2" style="width:100%">
-            </div>
-          </div>
-          <div class="column boxes">
-            <div class="content">
-              <img src="./img/box_3.jpg" alt="Box_3" style="width:100%">
-            </div>
-          </div>
-          <div class="column boxes">
-            <div class="content">
-              <img src="./img/box_4.jpg" alt="Box_4" style="width:100%">
-            </div>
-          </div>
-          <div class="column boxes">
-            <div class="content">
-              <img src="./img/box_5.jpg" alt="Box_5" style="width:100%">
-            </div>
-          </div>
-          <div class="column boxes">
-            <div class="content">
-              <img src="./img/box_6.jpg" alt="Box_6" style="width:100%">
-            </div>
-          </div>
-          <div class="column boxes">
-            <div class="content">
-              <img src="./img/box_7.jpg" alt="Box_7" style="width:100%">
-            </div>
-          </div>
-          <div class="column boxes">
-            <div class="content">
-              <img src="./img/box_8.jpg" alt="Box_8" style="width:100%">
-            </div>
-          </div>
-          <div class="column boxes">
-            <div class="content">
-              <img src="./img/box_9.jpg" alt="Box_9" style="width:100%">
-            </div>
-          </div>
-
-          <div class="column cakes">
-            <div class="content">
-              <img src="./img/ciasto_1.jpg" alt="Cake_1" style="width:100%">
-            </div>
-          </div>
-          <div class="column cakes">
-            <div class="content">
-              <img src="./img/ciasto_2.jpg" alt="Cake_2" style="width:100%">
-            </div>
-          </div>
-          <div class="column cakes">
-            <div class="content">
-              <img src="./img/ciasto_3.jpg" alt="Cake_3" style="width:100%">
-            </div>
-          </div>
-          <div class="column cakes">
-            <div class="content">
-              <img src="./img/ciasto_4.jpg" alt="Cake_4" style="width:100%">
-            </div>
-          </div>
-          <div class="column cakes">
-            <div class="content">
-              <img src="./img/ciasto_5.jpg" alt="Cake_5" style="width:100%">
-            </div>
-          </div>
-          <div class="column cakes">
-            <div class="content">
-              <img src="./img/ciasto_6.jpg" alt="Cake_6" style="width:100%">
-            </div>
-          </div>
-          <div class="column cakes">
-            <div class="content">
-              <img src="./img/ciasto_7.jpg" alt="Cake_7" style="width:100%">
-            </div>
-          </div>
-          <div class="column cakes">
-            <div class="content">
-              <img src="./img/ciasto_8.jpg" alt="Cake_8" style="width:100%">
-            </div>
-          </div>
-
-          <div class="column birth">
-            <div class="content">
-              <img src="./img/uro_1.jpg" alt="birthday_1" style="width:100%">
-            </div>
-          </div>
-          <div class="column birth">
-            <div class="content">
-              <img src="./img/uro_2.jpg" alt="birthday_2" style="width:100%">
-            </div>
-          </div>
-          <div class="column birth">
-            <div class="content">
-              <img src="./img/uro_3.jpg" alt="birthday_3" style="width:100%">
-            </div>
-          </div>
-          <div class="column birth">
-            <div class="content">
-              <img src="./img/uro_4.jpg" alt="birthday_4" style="width:100%">
-            </div>
-          </div>
-          <div class="column birth">
-            <div class="content">
-              <img src="./img/uro_5.jpg" alt="birthday_5" style="width:100%">
-            </div>
-          </div>
-          <div class="column birth">
-            <div class="content">
-              <img src="./img/uro_6.jpg" alt="birthday_6" style="width:100%">
-            </div>
-          </div>
-          <div class="column birth">
-            <div class="content">
-              <img src="./img/uro_7.jpg" alt="birthday_7" style="width:100%">
-            </div>
-          </div>
-          <div class="column birth">
-            <div class="content">
-              <img src="./img/uro_8.jpg" alt="birthday_8" style="width:100%">
-            </div>
-          </div>
-          <div class="column birth">
-            <div class="content">
-              <img src="./img/uro_9.jpg" alt="birthday_9" style="width:100%">
-            </div>
-          </div>
-          <div class="column birth">
-            <div class="content">
-              <img src="./img/uro_10.jpg" alt="birthday_10" style="width:100%">
-            </div>
-          </div>
-
-          <div class="column mono">
-            <div class="content">
-              <img src="./img/mono_1.jpg" alt="mono_1" style="width:100%">
-            </div>
-          </div>
-          <div class="column mono">
-            <div class="content">
-              <img src="./img/mono_2.jpg" alt="mono_2" style="width:100%">
-            </div>
-          </div>
-          <div class="column mono">
-            <div class="content">
-              <img src="./img/mono_3.jpg" alt="mono_3" style="width:100%">
-            </div>
-          </div>
-          <div class="column mono">
-            <div class="content">
-              <img src="./img/mono_4.jpg" alt="mono_4" style="width:100%">
-            </div>
-          </div>
-          <div class="column mono">
-            <div class="content">
-              <img src="./img/mono_5.jpg" alt="mono_5" style="width:100%">
-            </div>
-          </div>
-          <div class="column mono">
-            <div class="content">
-              <img src="./img/mono_6.jpg" alt="mono_6" style="width:100%">
-            </div>
-          </div>
-          <div class="column mono">
-            <div class="content">
-              <img src="./img/mono_7.jpg" alt="mono_7" style="width:100%">
-            </div>
-          </div>
-          <div class="column mono">
-            <div class="content">
-              <img src="./img/mono_8.jpg" alt="mono_8" style="width:100%">
-            </div>
-          </div>
-          <div class="column mono">
-            <div class="content">
-              <img src="./img/mono_9.jpg" alt="mono_9" style="width:100%">
-            </div>
-          </div>
-          <div class="column mono">
-            <div class="content">
-              <img src="./img/mono_10.jpg" alt="mono_10" style="width:100%">
-            </div>
-          </div>
-
-          <div class="column diff">
-            <div class="content">
-              <img src="./img/roz_1.jpg" alt="various_1" style="width:100%">
-            </div>
-          </div>
-          <div class="column diff">
-            <div class="content">
-              <img src="./img/roz_2.jpg" alt="various_2" style="width:100%">
-            </div>
-          </div>
-          <div class="column diff">
-            <div class="content">
-              <img src="./img/roz_3.jpg" alt="various_3" style="width:100%">
-            </div>
-          </div>
-          <div class="column diff">
-            <div class="content">
-              <img src="./img/roz_4.jpg" alt="various_4" style="width:100%">
-            </div>
-          </div>
-          <div class="column diff">
-            <div class="content">
-              <img src="./img/roz_5.jpg" alt="various_5" style="width:100%">
-            </div>
-          </div>
-          <div class="column diff">
-            <div class="content">
-              <img src="./img/roz_6.jpg" alt="various_6" style="width:100%">
-            </div>
-          </div>
-        <!-- END GRID -->
-        </div> 
-      
-
-    
-      </main>
-      
-      <footer class="text-muted">
+      <div class="collapse bg-dark" id="navbarHeader">
         <div class="container">
-          <p class="float-right">
-            <a href="#">Back to top</a>
+          <div class="row">
+            <div class="mx-auto py-4">
+              <h4 class="text-white">Kontakt</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href="https://www.instagram.com/addictive_muffin/"
+                    class="text-white"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/addictivemuffin"
+                    class="text-white"
+                    >Facebook</a
+                  >
+                </li>
+                <li><a href="#" class="text-white">Email</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-center">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main" role="main">
+      <section class="jumbotron text-center">
+        <div class="info container">
+          <h1>Addictive Muffin</h1>
+          <p class="lead text-muted">
+            <strong>Agnieszka</strong> | samouk uzależniony od pieczenia<br />
+            Torty, słodkie flower boxy i inne słodkie cuda na zamówienie.
           </p>
         </div>
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-      <script src="./js/bootstrap.bundle.min.js"></script>
-      <script src="./js/filter.js"></script>
-</body>
+      </section>
+
+      <h2>CAKEFOLIO</h2>
+      <div id="myBtnContainer">
+        <button
+          class="btn btn-outline-primary active"
+          onclick="filterSelection('all')"
+        >
+          Wszystkie
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          onclick="filterSelection('torts')"
+        >
+          Torty
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          onclick="filterSelection('boxes')"
+        >
+          Boxy
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          onclick="filterSelection('cakes')"
+        >
+          Ciasta
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          onclick="filterSelection('birth')"
+        >
+          Urodzinowe
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          onclick="filterSelection('mono')"
+        >
+          Monoporcje
+        </button>
+        <button
+          class="btn btn-outline-primary"
+          onclick="filterSelection('diff')"
+        >
+          Różności
+        </button>
+      </div>
+
+      <!-- Portfolio Gallery Grid -->
+      <div class="block">
+        <div class="gallery">
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_1.jpg" alt="Tort_1" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_2.jpg" alt="Tort_2" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_3.jpg" alt="Tort_3" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_4.jpg" alt="Tort_4" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_5.jpg" alt="Tort_5" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_6.jpg" alt="Tort_6" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_7.jpg" alt="Tort_7" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_8.jpg" alt="Tort_8" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_9.jpg" alt="Tort_9" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column torts">
+            <div class="content">
+              <img src="./img/tort_10.jpg" alt="Tort_10" style="width: 100%" />
+            </div>
+          </div>
+
+          <div class="column boxes">
+            <div class="content">
+              <img src="./img/box_1.jpg" alt="Box_1" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column boxes">
+            <div class="content">
+              <img src="./img/box_2.jpg" alt="Box_2" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column boxes">
+            <div class="content">
+              <img src="./img/box_3.jpg" alt="Box_3" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column boxes">
+            <div class="content">
+              <img src="./img/box_4.jpg" alt="Box_4" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column boxes">
+            <div class="content">
+              <img src="./img/box_5.jpg" alt="Box_5" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column boxes">
+            <div class="content">
+              <img src="./img/box_6.jpg" alt="Box_6" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column boxes">
+            <div class="content">
+              <img src="./img/box_7.jpg" alt="Box_7" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column boxes">
+            <div class="content">
+              <img src="./img/box_8.jpg" alt="Box_8" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column boxes">
+            <div class="content">
+              <img src="./img/box_9.jpg" alt="Box_9" style="width: 100%" />
+            </div>
+          </div>
+
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_1.jpg" alt="Cake_1" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_2.jpg" alt="Cake_2" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_3.jpg" alt="Cake_3" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_4.jpg" alt="Cake_4" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_5.jpg" alt="Cake_5" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_6.jpg" alt="Cake_6" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_7.jpg" alt="Cake_7" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column cakes">
+            <div class="content">
+              <img src="./img/ciasto_8.jpg" alt="Cake_8" style="width: 100%" />
+            </div>
+          </div>
+
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_1.jpg" alt="birthday_1" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_2.jpg" alt="birthday_2" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_3.jpg" alt="birthday_3" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_4.jpg" alt="birthday_4" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_5.jpg" alt="birthday_5" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_6.jpg" alt="birthday_6" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_7.jpg" alt="birthday_7" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_8.jpg" alt="birthday_8" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img src="./img/uro_9.jpg" alt="birthday_9" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column birth">
+            <div class="content">
+              <img
+                src="./img/uro_10.jpg"
+                alt="birthday_10"
+                style="width: 100%"
+              />
+            </div>
+          </div>
+
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_1.jpg" alt="mono_1" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_2.jpg" alt="mono_2" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_3.jpg" alt="mono_3" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_4.jpg" alt="mono_4" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_5.jpg" alt="mono_5" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_6.jpg" alt="mono_6" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_7.jpg" alt="mono_7" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_8.jpg" alt="mono_8" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_9.jpg" alt="mono_9" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column mono">
+            <div class="content">
+              <img src="./img/mono_10.jpg" alt="mono_10" style="width: 100%" />
+            </div>
+          </div>
+
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_1.jpg" alt="various_1" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_2.jpg" alt="various_2" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_3.jpg" alt="various_3" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_4.jpg" alt="various_4" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_5.jpg" alt="various_5" style="width: 100%" />
+            </div>
+          </div>
+          <div class="column diff">
+            <div class="content">
+              <img src="./img/roz_6.jpg" alt="various_6" style="width: 100%" />
+            </div>
+          </div>
+          <!-- END GRID -->
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>'
+        );
+    </script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/filter.js"></script>
+  </body>
 </html>
