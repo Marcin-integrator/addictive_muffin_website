@@ -32,21 +32,18 @@ h1 {
 }
 
 .gallery {
-  margin: 8px;
-  padding: 2em;
-  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
 }
 
 .gallery > .column {
   padding: 8px;
 }
 
-.block {
-  padding: 0 1em 1.5em;
-}
-
 .column {
   display: grid;
+  margin: 0 auto;
   place-content: center;
   float: left;
   width: 11em;
